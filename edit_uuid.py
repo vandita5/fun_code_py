@@ -6,7 +6,7 @@ def reverse(text):
 		index -= 2
 	return r_txt
 
-uuid = "839C42D5-61DE-44B6-ADBA-3C48AE9FD9F9"
-uuid = uuid.replace('-','')
+uuid = "0D61A7A008A2DFF395C13668D77E3C09542296531923ABA90557F2BEE6"
+# uuid = uuid.replace('-','')
 uuid = reverse(uuid)
 print uuid
